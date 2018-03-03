@@ -24,8 +24,6 @@ document.onkeyup = function(event) {
 
 	// Add the user's guess to guessesSoFar array but 
 	// only if it wasn't already previously picked by the user
-	// also make sure that the character user picks is within
-	// the alphabet, and not any non-usable character
 	if (guessesSoFar.indexOf(userGuess) < 0 && alphabetLetters.indexOf(userGuess) >= 0) {
 		guessesSoFar[guessesSoFar.length]=userGuess;
 		// if it is a new letter then decrease remaining guesses by 1
