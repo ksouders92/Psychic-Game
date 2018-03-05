@@ -57,7 +57,7 @@ document.onkeyup = function(event) {
 	}
 
 	// Displaying progress to HTML
-	var html = "<p>Wins:" + wins + "</p>" + "<p>Losses:" + losses + "</p>" + "<p>Guesses Left: " + guessesLeft + "</p>" +  "<p>Your guesses so far: " + guessesSoFar + "</p>" ;
+	var html = "<p>Wins:" + wins + "</p><br>" + "<p>Losses:" + losses + "</p><br>" + "<p>Guesses Left: " + guessesLeft + "</p><br>" +  "<p>Your guesses so far: " + guessesSoFar + "</p>" ;
 	// place html into the game ID
 	document.querySelector("#game").innerHTML = html;
 
